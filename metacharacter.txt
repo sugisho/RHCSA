@@ -1,0 +1,17 @@
+*	Any string of 0 or more characters.
+?	Any single character
+~	homedirectory
+~username	The currentt working direcotry
+~+	The current working directory
+~-	Theprevious working directory
+[abc...]	Any one character in the enclosed class
+[!abc...]	Any one character not in the enclosed class
+[^abc...]	Any one character not in the enclosed class
+[[:alpha:]]	Any alphabetic character
+[[:lower:]]	Any lower-case character
+[[:upper:]]	Any upper-case character
+[[:alunum:]]	 Any alphabetic character or digit
+[[:punc t:]]	Any printable character not a space or alphanumeric	
+[[:digit:]]	Any digit 0-9
+[[space]]	Any one whitspace character; may include tabs, newline, or carriage returns and from feeds as well as space
+
